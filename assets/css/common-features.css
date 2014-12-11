@@ -1,0 +1,96 @@
+#common-features {
+	background: url(../images/feature-section-bg.jpg) 0 0 no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 746px;
+	padding-bottom: 30px;
+	padding-top: 74px;
+	color: #fff;
+}
+#common-features h2 {
+	text-align: center;
+	color: #fff;
+}
+#common-features h3 {
+	color: rgba(255,255,255,0.5);
+	line-height: 1.2;
+	margin: 0 0 10px 0;
+	font-weight: 300;
+}
+.feature {
+	overflow: hidden;
+	padding-top: 11px;
+}
+#common-features p {
+	font-size: 1.5em;
+	color: rgba(255,255,255,0.5);
+}
+.feature ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.feature li {
+	
+	width:49.5%;
+	padding: 20px 123px 36px 73px;
+	position: relative;
+	display:inline-block;
+	vertical-align:top;
+}
+#common-features .sprite-icon {
+	position: absolute;
+	width: 60px;
+	height: 49px;
+	top: 33px;
+	left: 0;
+}
+.responsive {
+	background-position: 0 -62px;
+}
+
+.support {
+	background-position: -64px -59px;
+}
+.user-friendly {
+	background-position: 0 -122px;
+}
+.awesome-font {
+	background-position: -64px -191px;
+}
+.Plug-ins {
+	background-position: -64px -122px;
+}
+.retina {
+	background-position: 0 -191px;
+}
+@media only screen and (min-width: 1085px) and (max-width: 1271px) {
+}
+
+@media only screen and (max-width: 1084px) {
+
+	.feature li {
+		padding: 20px 2% 36px 73px;
+	}
+}
+@media only screen and (max-width: 1023px) {
+
+	.feature li {
+		width: 49%;
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+@media only screen and (max-width: 767px) {
+	#common-features {
+		padding-top: 30px;
+	}
+	.feature li {
+		width: 100%;
+	}
+	.feature {
+		padding-top: 0;
+	}
+
+}

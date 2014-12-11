@@ -1,0 +1,55 @@
+#about {
+	background: url(../images/csk-collage-about.png) 0 0 no-repeat;
+	background-size: cover;
+	padding: 70px 0;
+}
+#about .about-content {
+	background: url(../images/about-us_bg.jpg) 0 0 no-repeat;
+	border-right: 5px solid #0fb391;
+	border-left: 5px solid #0fb391;
+	text-align: center;
+	padding: 35px 20px;
+	box-shadow: 0 0px 68px rgba(0, 0 ,0,0.3);
+	background-size: cover;
+}
+
+#about .about-content h1 span {
+	color: #29aba4;
+}
+#about .about-content p {
+	font-size: 2em;
+
+	text-align: justify;
+	color: #858585;
+	line-height: 1.55;
+	width:50%;
+	padding-right:44px;
+	float:left;
+	padding:0 20px
+}
+#about .sammury {
+	padding-top: 80px;
+	display:inline-block;
+	width:100%;
+	
+}
+#about .about-content {
+	min-height: 424px;
+}
+@media only screen and (max-width: 767px) {
+	#about .about-content {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#about .about-content p {
+
+		float:none;
+		padding:0 10px;
+		width:100%;
+		margin-bottom:10px;
+	}
+	#about .sammury {
+		padding-top: 10px;
+	}
+
+}

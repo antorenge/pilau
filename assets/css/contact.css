@@ -1,0 +1,159 @@
+#contact {
+	background: #01b391;
+	min-height: 634px;
+	padding-top: 62px;
+	color: #fff;
+}
+#contact h2 {
+	text-align: center;
+	color: #fff;
+}
+#contact .form-fieldset {
+	padding-top: 16px;
+	display:inline-block;
+	width:100%;
+	position:relative;
+}
+#contact input[type='text'], #contact textarea {
+	width: 100%;
+	height: 80px;
+	border: 2px solid #06c19e;
+	padding: 5px 27px;
+	color: #585858;
+	font-size: 25px;
+	font-family: 'latohairline', sans-serif;
+	background: #e6f8f4;
+}
+#contact .left {
+	padding-right: 9px;
+}
+#contact .right {
+	padding-left: 9px;
+}
+.input-field {
+	margin-bottom: 20px;
+}
+#contact .left, #contact .right {
+	width: 50%;
+	float: left;
+	margin-bottom: 20px;
+}
+#contact textarea {
+	height: 190px;
+	padding-top: 18px;
+	resize: none;
+}
+#contact input.btn {
+	border: 3px solid #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	min-width: 242px;
+	height: 63px;
+	color: #fff;
+	background: none;
+}
+#contact .field-btn {
+	text-align: center;
+	clear: both;
+}
+
+#contact .flp div {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+#contact .flp label {
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 15px;
+		font-family: 'Lato', sans-serif;
+	line-height: 62px;
+
+	 -webkit-transition: all 0s linear;
+   -moz-transition: all 0s linear;
+   -o-transition: all 0s linear;
+   -ms-transition: all 0s linear;
+   transition: all 0s linear
+
+}
+#contact .flp input, #contact .flp textarea {
+	padding: 10px;
+	outline: none;
+
+}
+#contact .flp label {
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*left/right padding will be 2px less, adjusted by padding on .ch*/
+	padding: 10px 8px;
+	border-color: transparent;
+	color: #666;
+	cursor: text;
+}
+
+/*label styles*/
+#contact .ch {
+	display: block;
+	float: left;
+	position: relative; /*for upward animation*/
+	font-size: 25px;
+		font-family: 'Lato', sans-serif;
+/*	font-family: 'latohairline', sans-serif;*/
+	 -webkit-transition: all 0s linear;
+   -moz-transition: all 0s linear;
+   -o-transition: all 0s linear;
+   -ms-transition: all 0s linear;
+   transition: all 0s linear
+
+}
+#contact .ch:first-child {
+	padding-left: 16px;
+}
+#contact .ch:last-child {
+	padding-right: 2px;
+}
+
+/*active input label*/
+#contact .focussed {
+	width: auto;
+	pointer-events: none;
+}
+
+#contact .error input[type='text'],#contact .error textarea{
+border: 2px solid #01b391;
+box-shadow: inset 0 0 6px rgba(87, 4, 23, 0.83);
+}
+#contact .error label{
+	 color:#C5143F;
+}
+
+input:-webkit-autofill {
+    background-color: #e6f8f4 !important;
+}
+.succses{
+	position:absolute;
+	top:-30px;
+	right:0;
+	left:0;
+	margin:0 auto;
+	font-size:30px;
+	width:100%;
+	text-align:center;
+}
+@media only screen and (max-width: 767px) {
+	#contact {
+		padding-top: 30px;
+	}
+	#contact .form-fieldset {
+		padding-top: 6px;
+	}
+	#contact .left, #contact .right {
+		float: none;
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+}

@@ -1,0 +1,146 @@
+html, body, #wrapper {
+	height: 100%;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+#intro-section {
+	color: #fff;
+	background: url(../images/csk-collage.png) 0 0 no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.search-bar {
+	margin: 0px 200px;
+}
+
+.search {
+	padding: 30px;
+	border-radius: 6px;
+	background: #FFFFFF;
+	border: #91742c solid 1px;
+	font-size: 20px;
+}
+
+.info {
+	font-family: "Roboto Light" Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;	
+	line-height:20px;
+	margin:0px 200px;
+	background:rgba(22,39,55,0.7);
+	padding:10px 2px 10px 2px;
+	border-radius: 6px;
+	margin-top: 50px;
+}
+
+#intro-section .container {
+
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	margin: 0 auto;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	text-align: center;
+}
+
+.btn-style {
+	display: inline-block;
+}
+.btn-style:hover {
+
+	transform: translateY(-50%) scale(0.8);
+	-webkit-transform: translateY(-50%) scale(0.8);
+	-webkit-transform: translateY(-50%) scale(0.8);
+	-moz-transform: translateY(-50%) scale(0.8);
+	-o-transform: translateY(-50%) scale(0.8);
+	-ms-transform: translateY(-50%) scale(0.8);
+	border: 1px solid transparent;
+}
+#intro-section .info h1 {
+	color: rgba(255,255,255,1);
+	font-size:6em;
+	line-height: 1.2;
+	display: block;
+	font-weight:800;
+	margin-bottom:0;
+}
+#intro-section .info h1 span{
+	font-weight:300;
+}
+
+#intro-section span.or {
+	font-size: 3em;
+	line-height: 1.5;
+}
+#intro-section .btn-group {
+	margin-top:17px;
+}
+#intro-section .btn-group a {
+	color: rgba(255,255,255,0.9);
+	font-size: 1.5em;
+	line-height: 4.1;
+	margin: 0 6px;
+}
+
+@media only screen and (max-width: 767px) {
+	#intro-section {
+		height: auto;
+	}
+	#intro-section .container {
+		top: -31px;
+		transform: translateY(0);
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-o-transform: translateY(0);
+		-ms-transform: translateY(0);
+		position: static;
+		padding-bottom: 30px;
+	}
+	.brand {
+		transform: scale(0.5);
+		-webkit-transform: scale(0.5);
+		-moz-transform: scale(0.5);
+		-o-transform: scale(0.5);
+		-ms-transform: scale(0.5);
+	}
+	#intro-section .btn-group a {
+		display: block;
+		margin-bottom: 20px;
+	}
+	.info {
+		margin-top: -20px;
+	}
+	#intro-section .btn-group {
+		-webkit-transition: all 0.5s linear;
+		-moz-transition: all 0.5s linear;
+		-o-transition: all 0.4s linear;
+		-ms-transition: all 0.4s linear;
+		transition: all 0.5s linear;
+		width: 216px;
+		margin: 15px auto;
+	}
+
+}
+
+@media only screen and (max-height:445px)
+{
+	#intro-section {
+		height: auto;
+	}
+		#intro-section .container {
+		top: -31px;
+		transform: translateY(0);
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-o-transform: translateY(0);
+		-ms-transform: translateY(0);
+		position: static;
+		padding-bottom: 30px;
+	}
+}
